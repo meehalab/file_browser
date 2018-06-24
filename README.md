@@ -12,8 +12,10 @@ We invite you to play with the code - it has lots of comments and is relatively 
 Forcing files to download
 Browsers open text files instead of downloading them. If you wish to force all files to download, place this .htaccess file in the files folder:
 
+```
 <Files *.*>
 ForceType application/octet-stream
 </Files>
+```
 
 It should be called .htaccess (with a leading dot). This file is only supported on Apache web servers.
